@@ -8,6 +8,9 @@
 body {
   font-family: var(--heading-font-family);
 }
+h2 {
+  line-height: 2;
+}
 .hero {
   background: var(--branding-color);
   text-align: center;
@@ -30,5 +33,24 @@ body {
   color: white;
   font-size: 23px;
   line-height: 27px;
-  padding: 10px 15px;
+  padding: 10px 20px;
+}
+@media (max-width: 960px) {
+p { font-size: 12px;
+  line-height: 2;
+} 
+h2 { 
+  font-size: 20px;
+}
+ 
+}
+.btn-branding-outline {
+ background: var(--secondary-color);
+  color: var(--branding-color);
+  border: 1px solid;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 28px;
+  padding: 10px 20px;
+  text-align: center;
 }
