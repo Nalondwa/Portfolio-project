@@ -10,6 +10,10 @@ body {
 }
 h2 {
   line-height: 2;
+  font-weight: bold;
+}
+p {
+  font-weight: bold; 
 }
 .hero {
   background: var(--branding-color);
