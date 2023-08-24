@@ -92,14 +92,30 @@ p {
 .active {
   color: var(--secondary-color) !important;
 }
+footer {
+  margin: 80px 0;
+}
 footer .email-link {
   text-decoration: none;
   color: black;
   font-size: 24px;
-  text-align: center;
+  line-height: 4;
+  
 }
 footer .email-link:hover {
   color: var(--secondary-color);
 }
-footer .socia-link {
+footer .social-links a {
+margin: 0 20px ;
+color: var(--secondary-color);
+background: var(--branding-color);
+padding: 10px;
+font-size: 18px;
+border-radius: 10%;
+}
+footer .contact-box {
+  background: var(--branding-color);
+  padding: 30px;
+  border-radius:  10px;
+
 }
