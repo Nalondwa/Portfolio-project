@@ -46,7 +46,7 @@ p {
   }
   h2 {
     font-size: 20px;
-  }
+ 
 }
 .btn-branding-outline {
   background: var(--secondary-color);
@@ -107,9 +107,9 @@ footer .email-link:hover {
 footer .social-links a {
   margin: 0 20px;
   color: var(--secondary-color);
-  background: var(--branding-color);
+  
   padding: 10px;
-  font-size: 18px;
+  font-size: 60px;
   border-radius: 10%;
 }
 footer .contact-box {
