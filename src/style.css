@@ -5,16 +5,24 @@
   --default-font-family: "Poppins", sans-serif;
 }
 
+
+.logo {
+  max-height: 80px;
+
+}
+
 body {
   font-family: var(--heading-font-family);
 }
 h2 {
   line-height: 2;
   font-weight: bold;
+  text-align: center;
 }
 p {
   font-weight: bold;
 }
+
 .hero {
   background: var(--branding-color);
   text-align: center;
@@ -24,6 +32,7 @@ p {
   font-family: var(--default-font-family);
   font-weight: normal;
   line-height: 2;
+   
 }
 .hero p {
   font-family: "poppins", sans-serif;
@@ -46,7 +55,9 @@ p {
   }
   h2 {
     font-size: 20px;
- 
+   max-width: 80px;
+
+ }
 }
 .btn-branding-outline {
   background: var(--secondary-color);
@@ -60,7 +71,7 @@ p {
 }
 .content-container {
   text-align: center;
-  padding: 160px 20px;
+  padding: 0px 20px;
 }
 .content h1 {
   font-size: 54px;
@@ -86,15 +97,15 @@ p {
 .content {
   margin: 30px;
 }
-.logo {
-  max-height: 80px;
-}
+
 .active {
   color: var(--secondary-color) !important;
 }
 footer {
   margin: 80px 0;
+  text-align: center;
 }
+
 footer .email-link {
   text-decoration: none;
   color: black;
@@ -107,13 +118,11 @@ footer .email-link:hover {
 footer .social-links a {
   margin: 0 20px;
   color: var(--secondary-color);
-  
-  padding: 10px;
+    padding: 10px;
   font-size: 60px;
   border-radius: 10%;
 }
 footer .contact-box {
   background: var(--branding-color);
-  padding: 30px;
-  border-radius: 10px;
-}
+  padding: 20px;
+  border-radius: 5px;}
